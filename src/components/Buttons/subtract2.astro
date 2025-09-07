@@ -1,0 +1,103 @@
+---
+import '../Buttons/subtract.css';
+
+export interface Props {
+  type? : 'A' | 'B';
+}
+const { type = 'A' } = Astro.props as Props;
+---
+<style>
+  .subtract {
+    position: relative;
+    z-index: 1;
+  }
+</style>
+
+{
+type === 'A' ? 
+(
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="64" viewBox="0 0 20 64" >
+        <path d="M16 0H0L0 64H16V48L20 44V20L16 16V0Z"/>
+        </svg>
+    </div>
+) : 
+type === 'B' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M16 0H0L0 64H16V48L12 44V20L16 16V0Z"/>
+        </svg>
+    </div>
+) : 
+type === 'C' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M16 0H0L0 64H16V48L12 44V20L16 16V0Z"/>
+        </svg>
+    </div>
+) : 
+type === 'D' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="64" viewBox="0 0 20 64" >
+        <path d="M16 0H0L0 64H16V48L20 44V20L16 16V0Z"/>
+        </svg>
+    </div>
+) : 
+type === 'E' ? (
+        <div class="subtract">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+            <path d="M16 0H0L0 64H16V48L12 44V20L16 16V0Z"/>
+            </svg>
+        </div>
+) : 
+type === 'F' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M16 0H0L0 64H16V48L12 44V20L16 16V0Z"/>
+        </svg>
+    </div>
+) : 
+type === 'G' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M0 64L16 48.2462V0H0V64Z"/>
+        </svg>
+    </div>
+) : 
+type === 'H' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M0 0L16 15.7538V64H0V0Z"/>
+        </svg>
+    </div>
+) : 
+type === 'I' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M0 64L16 48.2462V0H0V64Z"/>
+        </svg>
+    </div>
+) : 
+type === 'J' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M0 0L16 15.7538V64H0V0Z"/>
+        </svg>
+    </div>
+) : 
+type === 'K' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M0 64L16 48.2462V0H0V64Z"/>
+        </svg>
+    </div>
+) : 
+type === 'L' ? (
+    <div class="subtract">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64" >
+        <path d="M0 0L16 15.7538V64H0V0Z"/>
+        </svg>
+    </div>
+) : 
+null
+}

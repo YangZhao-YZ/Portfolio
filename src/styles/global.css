@@ -1,0 +1,25 @@
+:root {
+--Yellow: #FFEE08;
+--Black: #010101;
+--Red: #FD0130;
+--Grey: #CDCDCD;
+--Blue: #02D7F2;
+--White: #FFFFFF;
+}
+
+html {
+  background-color: #FFEE08;
+  font-family: "Chakra Petch", "Bai Jamjuree";
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}

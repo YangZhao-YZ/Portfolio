@@ -1,0 +1,17 @@
+---
+import "../Buttons/button.css";
+import "../Buttons/subtract.css";
+import "../Buttons/frame.css";
+import "../Buttons/label.css";
+import Subtract1 from "./subtract1.astro";
+import Subtract2 from "./subtract2.astro";
+
+const { label='Button', type='I', url } = Astro.props;
+---
+<a class="button" href={url}>
+    <Subtract1 type={type} />
+    <span class="frame">
+        <span class="label">{label}</span>
+    </span>
+    <Subtract2 type={type} />
+</a>

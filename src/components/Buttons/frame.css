@@ -1,0 +1,25 @@
+.frame{
+    display: inline-flex;
+    height: 64px;
+    padding: 22px;
+    align-items: flex-start;
+    background: var(--Black, #010101);
+    position: relative;
+    z-index: 1; /* ensures frame is on top of shadows */
+}
+
+.button:hover .frame{
+    background: var(--Black, #010101);
+    box-shadow: 4px 4px 0 0 #02D7F2;
+}
+.button:focus .frame{
+    background: var(--Red, #FD0130);
+}
+.button:disabled .frame{
+    background: var(--Red, #FD0130);
+}
+.button:active .frame{
+    background: var(--Blue, #02D7F2);
+}
+
+

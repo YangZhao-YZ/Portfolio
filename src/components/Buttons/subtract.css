@@ -1,0 +1,19 @@
+.subtract {
+    fill: var(--Black, #010101);
+    position: relative;
+    z-index: 0;
+}
+
+.button:hover .subtract {
+    fill: var(--Black, #010101);
+    filter: drop-shadow(4px 4px 0 #02D7F2);
+}
+.button:focus .subtract{
+    fill: var(--Red, #FD0130);
+}
+.button:disabled .subtract{
+    fill: var(--Grey, #CDCDCD);
+}
+.button:active .subtract{
+    fill: var(--Blue, #02D7F2);
+}

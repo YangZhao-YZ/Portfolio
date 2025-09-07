@@ -1,0 +1,27 @@
+.label {
+    color: var(--White, #FFF);
+
+    /* Label */
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.button:hover .label{
+    color: var(--Blue, #02D7F2);
+}
+.button:focus .label{
+    color: var(--White, #FFF);
+}
+.button:disabled .label{
+    color: #888;
+}
+.button:active .label{
+    color: var(--Black, #010101);
+}

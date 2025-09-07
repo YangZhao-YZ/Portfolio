@@ -1,0 +1,18 @@
+<!-- ---
+const { platform, username } = Astro.props;
+---
+<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+
+<style>
+  a {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #6d26d6;
+    text-decoration: none;
+  }
+</style> -->
+---
+import Button from '../components/Buttons/Buttons.astro';
+const { platform, username } = Astro.props;
+---
+<Button label={platform} url={`https://www.${platform}.com/${username}`}/>
